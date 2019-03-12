@@ -1,4 +1,4 @@
-prediction_url = 'http://127.0.0.1:8080/api/forecasts'
+prediction_url = '0.0.0.0/api/forecasts'
 // prediction_url = 'http://127.0.0.1:8080/api/forecasts'
 $('#main_header').click(function() {
 		$.getJSON(prediction_url, function(data) {
