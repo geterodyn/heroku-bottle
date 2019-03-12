@@ -13,12 +13,12 @@ def index():
 
 @route('/css/<filename>')
 def send_css(filename):
-	return static_file(filename, root='/static/css')
+	return static_file(filename, root='static/css')
 # comment for testing of GIT
 
 @route('/js/<filename>')
 def send_js(filename):
-	return static_file(filename, root='/static/js')
+	return static_file(filename, root='static/js')
 
 @route("/api/forecasts")
 def api_forecast():
