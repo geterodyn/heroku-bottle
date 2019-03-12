@@ -20,6 +20,10 @@ def send_css(filename):
 def send_js(filename):
 	return static_file(filename, root='static/js')
 
+@route('/img/<img_name>')
+def send_img(img_name):
+	return static_file(img_name, root ='static/img')
+
 @route("/api/forecasts")
 def api_forecast():
 	return {"prophecies" : generate_prophecies(6,2)}

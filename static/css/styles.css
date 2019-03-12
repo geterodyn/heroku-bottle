@@ -5,3 +5,13 @@
 p:hover {
 	background: lightgreen;
 }
+p {
+	background: white;
+	opacity: 0.8;
+}
+body {
+	background: url(bg1.jpg);
+}
+h1 {
+	text-align: center;
+}

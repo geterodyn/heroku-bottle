@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<title>Гороскоп на сегодня</title>
 	<meta charset="utf-8">
 	<link 
 		rel="stylesheet" 
