@@ -9,7 +9,7 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
 		crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" type="text/css" href="https://morning-bastion-85295.herokuapp.com/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="https://morning-bastion-85295.herokuapp.com/static/css/styles.css">
 		<script
   			src="https://code.jquery.com/jquery-3.3.1.min.js"
   			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -31,5 +31,5 @@
 			</div>
 		</div>
 </body>
-<script src="https://morning-bastion-85295.herokuapp.com/js/helpers.js" type="text/javascript" language="javascript"></script>
+<script src="https://morning-bastion-85295.herokuapp.com/static/js/helpers.js" type="text/javascript" language="javascript"></script>
 </html>
