@@ -1,4 +1,4 @@
-prediction_url = 'http://sf-pyw.mosyag.in/m04/api/forecasts'
+prediction_url = 'https://morning-bastion-85295.herokuapp.com/api/forecasts'
 // prediction_url = 'http://127.0.0.1:8080/api/forecasts'
 $('#main_header').click(function() {
 		$.getJSON(prediction_url, function(data) {
